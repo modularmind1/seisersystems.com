@@ -1,6 +1,6 @@
 # Roadmap
 
-## Sprint 0: Repository Foundation
+## Sprint 0: Repository Foundation - Complete
 
 - Organize the static website structure.
 - Keep `index.html` at the root for GitHub Pages.
@@ -8,7 +8,7 @@
 - Move page styling into `css/style.css`.
 - Add basic project documentation.
 
-## Sprint 1: Full Landing Page
+## Sprint 1: Landing Page Content Expansion - In Progress
 
 - Expand the public landing page content.
 - Improve semantic sections, accessibility, and responsive layout.
