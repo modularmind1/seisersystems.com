@@ -24,6 +24,7 @@ This repository is intentionally simple:
 ## File Structure
 
 - `index.html` - Current GitHub Pages entry point.
+- `CODEX.md` - Working guide for Codex and other AI coding agents.
 - `assets/logos/` - Logo and brand mark files.
 - `assets/images/` - General website imagery.
 - `assets/icons/` - Static icon files.
