@@ -1,9 +1,11 @@
 # Assets
 
-Static media files for the public website, including logos, images, icons, and other downloadable assets.
+Static media files for the public website.
 
 Current convention:
 
-- Keep brand imagery here instead of at the repository root.
+- Keep brand imagery in `logos/`.
+- Keep general imagery in `images/`.
+- Keep icon files in `icons/`.
 - Use descriptive lowercase filenames.
 - Optimize large assets before adding more files.
