@@ -144,6 +144,11 @@ p {
   line-height: 1.6;
 }
 
+.consultation-callout .consultation-support {
+  color: var(--text);
+  font-weight: 700;
+}
+
 .hero-actions,
 .contact-grid {
   display: flex;

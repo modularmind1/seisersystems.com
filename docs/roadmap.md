@@ -22,18 +22,25 @@
 - Add homepage sections for services, pricing, about, projects, and contact.
 - Keep information accurate and avoid unverified claims.
 
-## Sprint 3: Dedicated Services, About, and Contact Pages
+## Sprint 3: Services, Pricing, and Lead Capture - Complete
 
-- Add public pages for deeper service, company, and contact information if the single-page homepage becomes too dense.
+- Clarify public service categories and starting pricing.
+- Promote free initial phone consultations without implying free on-site or remote troubleshooting.
+- Keep the quote path static by linking visitors to contact options.
+- Add customer intake, quote, and job log template drafts.
 
-## Sprint 4: Portfolio or Gallery
+## Sprint 4: Google Form / Quote Request Integration
+
+- Replace placeholder quote links with an approved Google Form or proper quote request form link.
+- Keep privacy, spam prevention, and maintenance requirements clear before publishing.
+
+## Sprint 5: Portfolio or Gallery
 
 - Add approved examples of work when suitable assets and permission are available.
 
-## Sprint 5: Quote Request Form
+## Future: Dedicated Services, About, and Contact Pages
 
-- Plan a public quote request workflow.
-- Choose an implementation only after privacy, spam prevention, hosting, and maintenance requirements are clear.
+- Add public pages for deeper service, company, and contact information if the single-page homepage becomes too dense.
 
 ## Future: Internal Business Tools
 
