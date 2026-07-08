@@ -59,6 +59,10 @@ Homepage sections are organized with semantic `<section>` elements and stable ID
 
 `js/` is reserved for future vanilla JavaScript. No `main.js` exists yet because the current homepage uses only HTML and CSS, including the sticky service navigation.
 
+## Lead Capture
+
+Quote request calls to action link to an approved Google Form. The form is hosted outside this repository, so the public website remains static and does not include backend code, authentication, databases, or custom form handling.
+
 ## Deployment
 
 GitHub Pages serves the repository from the `main` branch root. Static files are resolved relative to `index.html`.

@@ -29,10 +29,10 @@
 - Keep the quote path static by linking visitors to contact options.
 - Add customer intake, quote, and job log template drafts.
 
-## Sprint 4: Google Form / Quote Request Integration
+## Sprint 4: Google Form / Quote Request Integration - Complete
 
-- Replace placeholder quote links with an approved Google Form or proper quote request form link.
-- Keep privacy, spam prevention, and maintenance requirements clear before publishing.
+- Replace placeholder quote links with an approved Google Form.
+- Keep the site static with no backend form handling in this repository.
 
 ## Sprint 5: Portfolio or Gallery
 
