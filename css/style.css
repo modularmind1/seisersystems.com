@@ -379,6 +379,70 @@ footer {
   white-space: nowrap;
 }
 
+.review-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 840px;
+}
+
+.form-field,
+.form-help,
+.form-status {
+  margin: 0;
+}
+
+.form-field-full,
+.form-help,
+.form-actions,
+.form-status {
+  grid-column: 1 / -1;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted-strong);
+  font-weight: 700;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  font: inherit;
+  line-height: 1.45;
+  padding: 13px 14px;
+}
+
+.form-field textarea {
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: rgba(20,119,255,0.72);
+  outline: 2px solid rgba(90,162,255,0.35);
+  outline-offset: 2px;
+}
+
+.form-help,
+.form-status {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .contact-section {
   border-bottom: 0;
 }
@@ -440,6 +504,10 @@ footer {
   }
 
   .detail-list {
+    grid-template-columns: 1fr;
+  }
+
+  .review-form {
     grid-template-columns: 1fr;
   }
 

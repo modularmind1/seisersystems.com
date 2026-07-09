@@ -39,6 +39,7 @@ Below the hero, a service navigation bar links to the primary homepage sections:
 - Electronics Troubleshooting
 - Custom Tech Solutions
 - Pricing
+- Review
 - Contact
 
 The navigation uses CSS `position: sticky` so it appears below the hero at first, then remains at the top of the viewport while scrolling. Section anchors use CSS `scroll-margin-top` so linked headings remain visible below the sticky bar.
@@ -53,15 +54,20 @@ Homepage sections are organized with semantic `<section>` elements and stable ID
 - `pricing`
 - `about`
 - `projects`
+- `reviews`
 - `contact`
 
 ## JavaScript
 
-`js/` is reserved for future vanilla JavaScript. No `main.js` exists yet because the current homepage uses only HTML and CSS, including the sticky service navigation.
+Vanilla JavaScript lives in `js/main.js`.
+
+The review section uses JavaScript to gather the visitor's name, star rating, and description, then opens a prefilled email draft. This keeps the site static and avoids a fake form that submits nowhere.
 
 ## Lead Capture
 
 Quote request calls to action link to an approved Google Form. The form is hosted outside this repository, so the public website remains static and does not include backend code, authentication, databases, or custom form handling.
+
+The review form is email-based and does not publish reviews automatically.
 
 ## Deployment
 

@@ -38,6 +38,11 @@
 
 - Add approved examples of work when suitable assets and permission are available.
 
+## Future: Review Collection
+
+- Replace the email-based review form with an approved review workflow if public reviews should be collected or displayed.
+- Do not publish customer names, testimonials, or review text without explicit approval.
+
 ## Future: Dedicated Services, About, and Contact Pages
 
 - Add public pages for deeper service, company, and contact information if the single-page homepage becomes too dense.

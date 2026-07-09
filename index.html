@@ -7,6 +7,7 @@
   <meta name="description" content="Seiser Systems provides custom PCs, diagnostics, electronics troubleshooting, and practical technology solutions with honest recommendations.">
   <link rel="icon" href="assets/logos/seiser-systems-logo.png">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <header class="hero" id="top">
@@ -64,6 +65,7 @@
       <a href="#electronics-troubleshooting">Electronics Troubleshooting</a>
       <a href="#custom-tech-solutions">Custom Tech Solutions</a>
       <a href="#pricing">Pricing</a>
+      <a href="#reviews">Review</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
@@ -211,6 +213,45 @@
       <p class="lead">
         Future builds and project photos will be added here when approved examples are ready to share.
       </p>
+    </section>
+
+    <section class="section review-section" id="reviews" aria-labelledby="reviews-heading">
+      <div class="section-header">
+        <p class="section-kicker">Feedback</p>
+        <h2 id="reviews-heading">Rate your service.</h2>
+        <p>
+          If Seiser Systems helped with a build, repair, diagnostic, or project, share a short review. This opens an email draft and does not publish your feedback automatically.
+        </p>
+      </div>
+      <form class="review-form" id="service-review-form">
+        <div class="form-field">
+          <label for="review-name">Name</label>
+          <input type="text" id="review-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-field">
+          <label for="review-rating">Star rating</label>
+          <select id="review-rating" name="rating" required>
+            <option value="">Select a rating</option>
+            <option value="5">5 stars</option>
+            <option value="4">4 stars</option>
+            <option value="3">3 stars</option>
+            <option value="2">2 stars</option>
+            <option value="1">1 star</option>
+          </select>
+        </div>
+        <div class="form-field form-field-full">
+          <label for="review-description">Description</label>
+          <textarea id="review-description" name="description" rows="6" required></textarea>
+        </div>
+        <p class="form-help">
+          Submitting opens your email app with the review details filled in.
+        </p>
+        <div class="form-actions">
+          <button class="button button-primary" type="submit">Send Review</button>
+          <a class="button button-secondary" href="mailto:contact@seisersystems.com?subject=Seiser%20Systems%20Service%20Review">Email Directly</a>
+        </div>
+        <p class="form-status" id="review-form-status" role="status" aria-live="polite"></p>
+      </form>
     </section>
 
     <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
