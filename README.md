@@ -8,7 +8,7 @@ Website: https://seisersystems.com
 
 This repository contains only the public website for Seiser Systems. It is a static GitHub Pages site and does not contain internal business software, backend code, databases, authentication, or APIs.
 
-The current site is a simple "Coming Soon" landing page for Version 0.1.
+The current site is a static public website with homepage service information, pricing, lead capture, a project gallery placeholder, a service disclaimer, and a review page.
 
 ## Technology
 
@@ -29,7 +29,8 @@ This repository is intentionally simple:
 - `assets/images/` - General website imagery.
 - `assets/icons/` - Static icon files.
 - `css/` - Site stylesheets.
-- `js/` - Future vanilla JavaScript modules.
+- `js/` - Vanilla JavaScript for progressive enhancement.
+- `pages/` - Additional static public pages.
 - `docs/` - Project documentation, architecture notes, and roadmap.
 - `CNAME` - GitHub Pages custom domain configuration.
 

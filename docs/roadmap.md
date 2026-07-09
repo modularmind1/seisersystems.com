@@ -34,9 +34,22 @@
 - Replace placeholder quote links with an approved Google Form.
 - Keep the site static with no backend form handling in this repository.
 
-## Sprint 5: Portfolio or Gallery
+## Sprint 5: Projects Page, Expanded About, and Service Disclaimer - Complete
 
-- Add approved examples of work when suitable assets and permission are available.
+- Move the project gallery to a dedicated page with placeholder categories only.
+- Expand the homepage About section without overstating credentials.
+- Add a short footer disclaimer and full service disclaimer page.
+- Add footer links for home, project gallery, service disclaimer, contact, quote requests, and reviews.
+- Keep fake projects, fake reviews, fake customers, and fake claims out of the site.
+
+## Future: Service Detail Pages
+
+- Add deeper pages for service categories when the homepage becomes too dense.
+- Keep homepage service summaries concise and link to detail pages.
+
+## Future: Portfolio Gallery Expansion
+
+- Add approved examples of real work when suitable assets and permission are available.
 
 ## Future: Review Collection
 

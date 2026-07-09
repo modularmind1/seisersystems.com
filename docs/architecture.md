@@ -39,10 +39,9 @@ Below the hero, a service navigation bar links to the primary homepage sections:
 - Electronics Troubleshooting
 - Custom Tech Solutions
 - Pricing
-- Review
 - Contact
 
-The navigation uses CSS `position: sticky` so it appears below the hero at first, then remains at the top of the viewport while scrolling. Section anchors use CSS `scroll-margin-top` so linked headings remain visible below the sticky bar.
+The navigation uses CSS `position: sticky` so it appears below the hero at first, then remains at the top of the viewport while scrolling. The nav wraps into multiple rows at narrower widths instead of horizontal scrolling. Section anchors use CSS `scroll-margin-top` so linked headings remain visible below the sticky bar.
 
 Homepage sections are organized with semantic `<section>` elements and stable IDs. The current section IDs are:
 
@@ -54,14 +53,23 @@ Homepage sections are organized with semantic `<section>` elements and stable ID
 - `pricing`
 - `about`
 - `projects`
-- `reviews`
 - `contact`
+
+## Additional Pages
+
+Additional public pages live under `pages/`.
+
+- `pages/projects.html` - Dedicated project gallery page. It may contain placeholder categories, but placeholder cards must not be replaced with fake projects, fake photos, fake customers, fake before/after claims, or fake testimonials.
+- `pages/disclaimer.html` - Full service disclaimer page.
+- `pages/review.html` - Email-based service review page.
+
+Because `index.html` stays at the repository root, links from the homepage to nested pages use paths such as `pages/projects.html`. Links from nested pages back to the homepage use paths such as `../index.html`, and nested assets use `../css/style.css` and `../assets/logos/seiser-systems-logo.png`.
 
 ## JavaScript
 
 Vanilla JavaScript lives in `js/main.js`.
 
-The review section uses JavaScript to gather the visitor's name, star rating, and description, then opens a prefilled email draft. This keeps the site static and avoids a fake form that submits nowhere.
+The review page uses JavaScript to gather the visitor's name, star rating, and description, then opens a prefilled email draft. This keeps the site static and avoids a fake form that submits nowhere.
 
 ## Lead Capture
 
