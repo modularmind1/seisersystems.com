@@ -63,3 +63,12 @@
 ## Future: Internal Business Tools
 
 Internal tools such as CRM, quoting, inventory, dashboards, and customer portals should live in separate repositories.
+
+Future operations goals:
+
+- Google Form lead capture
+- Estimate template automation
+- Invoice template automation
+- Job status tracker
+- Private operations repository
+- Customer portal someday
