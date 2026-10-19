@@ -12,7 +12,7 @@ Repository:
 
 https://github.com/modularmind1/seisersystems.com
 
-The site is currently a static "Coming Soon" landing page. Version 0.1 is the foundation phase: keep the site simple, professional, accessible, and maintainable.
+The site is a static services website with project notes, a coming-soon product catalog, a service disclaimer, and a review page. Keep it simple, professional, accessible, and maintainable.
 
 ## Repository Scope
 
@@ -46,6 +46,10 @@ Avoid:
 
 Current public positioning may reference:
 
+- Website development
+- Software engineering and workflow tools
+- Systems engineering, requirements, and integration planning
+- Low-voltage electronics troubleshooting and prototypes
 - Custom PCs
 - PC upgrades
 - Diagnostics
@@ -57,7 +61,6 @@ Future possible expansion may include:
 - Servers
 - NAS systems
 - Networking
-- Automation
 - Robotics
 - Engineering tools
 
@@ -110,7 +113,8 @@ Do not move `index.html` or `CNAME` without explicit approval.
 - `assets/images/` - General website imagery.
 - `assets/icons/` - Static icon files.
 - `css/style.css` - Global stylesheet.
-- `js/` - Reserved for future vanilla JavaScript.
+- `js/main.js` - Email-based service review form behavior.
+- `pages/` - Projects, products, service disclaimer, and review pages.
 - `docs/` - Architecture notes, audit, and roadmap.
 
 Do not create extra top-level folders unless they serve a clear public-website maintenance purpose.

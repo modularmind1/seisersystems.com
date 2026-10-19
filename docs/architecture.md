@@ -30,36 +30,36 @@ The stylesheet was extracted from the original embedded CSS in `index.html` to i
 
 The homepage is a single-page static layout in `index.html`.
 
-The top of the page uses a full-width hero section with the Seiser Systems logo, company name, tagline, supporting sentence, and calls to action. The hero also includes a simple service overview panel using existing brand styling instead of stock imagery or flashy effects.
+A shared header provides links to services, approach, projects, products, and contact. It wraps on small screens without JavaScript. The header is not sticky; section anchors have a small scroll margin.
 
-Below the hero, a service navigation bar links to the primary homepage sections:
+The homepage retains the dark palette, blue accents, and existing logo. A measured grid, restrained borders, numbered service rows, and a technical drawing frame give the content a consistent engineering focus. The hero introduces website development, software engineering, and systems engineering. Hardware and electronics remain supporting services.
 
-- Custom PCs & Upgrades
-- Diagnostics & Repair
-- Electronics Troubleshooting
-- Custom Tech Solutions
-- Pricing
-- Contact
+Homepage section IDs:
 
-The navigation uses CSS `position: sticky` so it appears below the hero at first, then remains at the top of the viewport while scrolling. The nav wraps into multiple rows at narrower widths instead of horizontal scrolling. Section anchors use CSS `scroll-margin-top` so linked headings remain visible below the sticky bar.
+- `top` — Hero
+- `services` — Capability overview
+- `web-development` — Website development
+- `custom-tech-solutions` — Software engineering (preserves the existing anchor)
+- `systems-engineering` — Systems engineering
+- `custom-pcs-upgrades` — PC builds and support
+- `diagnostics-repair` — Diagnostics within PC support
+- `electronics-troubleshooting` — Low-voltage electronics and prototypes
+- `approach` — Scope, build, and verification process
+- `pricing` — Quote-based development work and existing hardware starting prices
+- `about` — Founder introduction
+- `projects` — Project and product page links
+- `contact` — Existing quote, email, phone, and social links
 
-Homepage sections are organized with semantic `<section>` elements and stable IDs. The current section IDs are:
+## Shared Navigation and Accessibility
 
-- `intro`
-- `custom-pcs-upgrades`
-- `diagnostics-repair`
-- `electronics-troubleshooting`
-- `custom-tech-solutions`
-- `pricing`
-- `about`
-- `projects`
-- `contact`
+Each page includes a skip-to-content link, the same main navigation, and a footer linking to all public pages. The active project/product link uses `aria-current="page"`. CSS defines visible keyboard focus states, responsive layouts, and reduced-motion behavior. Direction arrows use inline SVG so they do not depend on installed symbol fonts.
 
 ## Additional Pages
 
 Additional public pages live under `pages/`.
 
-- `pages/projects.html` - Dedicated project gallery page. It may contain placeholder categories, but placeholder cards must not be replaced with fake projects, fake photos, fake customers, fake before/after claims, or fake testimonials.
+- `pages/projects.html` - Project notes, beginning with this website as a real HTML/CSS/JavaScript example. Future examples require real work and approved public details.
+- `pages/products.html` - Prepared product catalog with an explicit coming-soon state. No product names, prices, availability, checkout, or specifications are invented. Add actual listing details when supplied by the owner.
 - `pages/disclaimer.html` - Full service disclaimer page.
 - `pages/review.html` - Email-based service review page.
 

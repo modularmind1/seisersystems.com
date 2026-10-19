@@ -8,7 +8,7 @@ Website: https://seisersystems.com
 
 This repository contains only the public website for Seiser Systems. It is a static GitHub Pages site and does not contain internal business software, backend code, databases, authentication, or APIs.
 
-The current site is a static public website with homepage service information, pricing, lead capture, a project gallery placeholder, a service disclaimer, and a review page.
+The site presents website development, software engineering, systems engineering, custom PCs, and electronics services. It includes starting prices, quote links, a project write-up, a coming-soon product catalog, a service disclaimer, and an email-based review form.
 
 ## Technology
 
@@ -30,7 +30,7 @@ This repository is intentionally simple:
 - `assets/icons/` - Static icon files.
 - `css/` - Site stylesheets.
 - `js/` - Vanilla JavaScript for progressive enhancement.
-- `pages/` - Additional static public pages.
+- `pages/` - Projects, products, service disclaimer, and review pages.
 - `docs/` - Project documentation, architecture notes, and roadmap.
 - `CNAME` - GitHub Pages custom domain configuration.
 
@@ -43,6 +43,12 @@ No install step is required.
 ## Deployment
 
 GitHub Pages serves this site from the `main` branch root. Because of that, `index.html` and `CNAME` must remain at the repository root unless the GitHub Pages settings are intentionally changed.
+
+## Preparing a Live Update
+
+Review changes on a feature branch before merging into `main`. GitHub Pages publishes the root of `main` to the existing custom domain. No build command, dependency installation, or hosting migration is needed. Publication can take a few minutes after a merge; check the Pages deployment in GitHub Actions before treating the live update as complete.
+
+Product listings are intentionally empty until real product details, pricing, and availability are supplied. The existing site itself is documented as the first project example.
 
 ## Notes
 
