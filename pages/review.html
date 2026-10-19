@@ -1,51 +1,60 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Leave a Review | Seiser Systems</title>
-  <meta name="description" content="Leave a service review for Seiser Systems with your name, star rating, and description.">
-  <link rel="icon" href="../assets/logos/seiser-systems-logo.png">
-  <link rel="stylesheet" href="../css/style.css">
-  <script src="../js/main.js" defer></script>
-</head>
-<body>
-  <header class="hero page-hero">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <a href="../index.html" aria-label="Seiser Systems home">
-          <img class="hero-logo" src="../assets/logos/seiser-systems-logo.png" alt="Seiser Systems logo">
-        </a>
-        <p class="eyebrow">Feedback</p>
-        <h1>Leave a Review</h1>
-        <p class="hero-summary">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leave a Review | Seiser Systems</title>
+    <meta name="description" content="Leave a service review for Seiser Systems with your name, star rating, and description.">
+    <link rel="icon" href="../assets/logos/seiser-systems-logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="wordmark" href="../index.html" aria-label="Seiser Systems home">SEISER<span>SYSTEMS</span></a>
+        <nav class="primary-nav" aria-label="Main navigation">
+          <a href="../index.html#services">Services</a>
+          <a href="../index.html#approach">Approach</a>
+          <a href="projects.html">Projects</a>
+          <a href="products.html">Products</a>
+          <a href="../index.html#contact">Contact <svg class="arrow-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="M3 13 13 3M3 3h10v10" stroke="currentColor" stroke-width="1.4"/></svg></a>
+        </nav>
+      </div>
+    </header>
+    <header class="hero page-hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Feedback</p>
+          <h1>Leave a Review</h1>
+          <p class="hero-summary">
           Share a short review after a completed service. This opens an email draft and does not publish your feedback automatically.
         </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#review-form">Rate Service</a>
-          <a class="button button-secondary" href="../index.html">Back to Home</a>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#review-form">Rate Service</a>
+            <a class="button button-secondary" href="../index.html">Back to Home</a>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="section page-section" id="review-form" aria-labelledby="review-heading">
-      <div class="section-header">
-        <p class="section-kicker">Service feedback</p>
-        <h2 id="review-heading">Rate your service.</h2>
-        <p>
+    </header>
+    <main id="main-content">
+      <section class="section page-section" id="review-form" aria-labelledby="review-heading">
+        <div class="section-header">
+          <p class="section-kicker">Service feedback</p>
+          <h2 id="review-heading">Rate your service.</h2>
+          <p>
           Add your name, star rating, and a short description. The form opens your email app with the review details filled in.
         </p>
-      </div>
-      <form class="review-form" id="service-review-form">
-        <div class="form-field">
-          <label for="review-name">Name</label>
-          <input type="text" id="review-name" name="name" autocomplete="name" required>
         </div>
-        <div class="form-field">
-          <label for="review-rating">Star rating</label>
-          <select id="review-rating" name="rating" required>
+        <form class="review-form" id="service-review-form">
+          <div class="form-field">
+            <label for="review-name">Name</label>
+            <input type="text" id="review-name" name="name" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="review-rating">Star rating</label>
+            <select id="review-rating" name="rating" required>
             <option value="">Select a rating</option>
             <option value="5">5 stars</option>
             <option value="4">4 stars</option>
@@ -53,34 +62,38 @@
             <option value="2">2 stars</option>
             <option value="1">1 star</option>
           </select>
-        </div>
-        <div class="form-field form-field-full">
-          <label for="review-description">Description</label>
-          <textarea id="review-description" name="description" rows="6" required></textarea>
-        </div>
-        <p class="form-help">
+          </div>
+          <div class="form-field form-field-full">
+            <label for="review-description">Description</label>
+            <textarea id="review-description" name="description" rows="6" required></textarea>
+          </div>
+          <p class="form-help">
           Submitting opens your email app. Reviews are not published automatically.
         </p>
-        <div class="form-actions">
-          <button class="button button-primary" type="submit">Send Review</button>
-          <a class="button button-secondary" href="mailto:contact@seisersystems.com?subject=Seiser%20Systems%20Service%20Review">Email Directly</a>
+          <div class="form-actions">
+            <button class="button button-primary" type="submit">Send Review</button>
+            <a class="button button-secondary" href="mailto:contact@seisersystems.com?subject=Seiser%20Systems%20Service%20Review">Email Directly</a>
+          </div>
+          <p class="form-status" id="review-form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a class="wordmark" href="../index.html">SEISER<span>SYSTEMS</span></a>
+          <p>Engineered Solutions. Honest Advice.</p>
         </div>
-        <p class="form-status" id="review-form-status" role="status" aria-live="polite"></p>
-      </form>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <nav class="footer-links" aria-label="Footer navigation">
-        <a href="../index.html">Home</a>
-        <a href="projects.html">Project Gallery</a>
-        <a href="disclaimer.html">Service Disclaimer</a>
-        <a href="../index.html#contact">Contact</a>
-        <a href="https://forms.gle/vS6BLfuFiEZz8chR6">Request a Quote</a>
-      </nav>
-      <p class="footer-meta">&copy; 2026 Seiser Systems. Built right. Built to last.</p>
-    </div>
-  </footer>
-</body>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="../index.html#services">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="products.html">Products</a>
+          <a href="disclaimer.html">Service Disclaimer</a>
+          <a href="review.html">Leave a Review</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+        <p class="footer-meta">&copy; 2026 Seiser Systems</p>
+      </div>
+    </footer>
+  </body>
 </html>
