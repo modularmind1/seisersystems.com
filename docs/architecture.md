@@ -32,7 +32,7 @@ The homepage is a single-page static layout in `index.html`.
 
 A shared header provides links to services, approach, projects, products, and contact. It wraps on small screens without JavaScript. The header is not sticky; section anchors have a small scroll margin.
 
-The homepage retains the dark palette, blue accents, and existing logo. A measured grid, restrained borders, numbered service rows, and a technical drawing frame give the content a consistent engineering focus. The hero introduces website development, software engineering, and systems engineering. Hardware and electronics remain supporting services.
+The homepage retains the dark palette, blue accents, and existing logo. A measured grid, restrained borders, service rows, and a technical drawing frame give the content a consistent engineering focus. The hero introduces website development, software engineering, and systems engineering. Hardware and electronics remain supporting services.
 
 Homepage section IDs:
 
